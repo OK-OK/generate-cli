@@ -1,0 +1,2 @@
+# generate-cli
+generate project
