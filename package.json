@@ -10,7 +10,8 @@
     "generator": "bin/generate-cli.js"
   },
   "keywords": [
-    "generate-cli"
+    "generate-cli",
+    "cli"
   ],
   "author": "JL_Guan",
   "license": "ISC",
