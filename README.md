@@ -13,7 +13,7 @@ $ generator
 
 or
 
-generator create <Type>
+$ generator create <Type>
 ````
 
 #### Type
