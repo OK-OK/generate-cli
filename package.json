@@ -1,6 +1,6 @@
 {
   "name": "generate-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A generate-cli",
   "main": "bin/generate-cli",
   "scripts": {
