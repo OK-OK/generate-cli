@@ -2,7 +2,7 @@
   "name": "generate-cli",
   "version": "1.0.0",
   "description": "A generate-cli",
-  "main": "index.js",
+  "main": "bin/generate-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,15 +14,14 @@
   ],
   "author": "JL_Guan",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.1.0",
-    "commander": "^5.1.0",
-    "execa": "^4.0.3",
+    "commander": "^6.2.0",
+    "execa": "^4.1.0",
     "fs-extra": "^9.0.1",
-    "inquirer": "^7.3.3",
-    "node-sass": "^4.14.1"
+    "inquirer": "^7.3.3"
   },
+  "devDependencies": {},
   "directories": {
     "lib": "lib"
   }
