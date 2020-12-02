@@ -2,7 +2,7 @@
 
 const program = require('commander')
 const Creator = require('../lib/creator')
-const { projectName, version, typeNames, chalk } = require('../lib/share-util')
+const { projectName, version, commands, chalk } = require('../lib/share-util')
 
 // 提示
 program
@@ -15,7 +15,7 @@ program
     .command('create [typeName]')
     .description('create a new [typeName] project')
     .action(typeName => {
-        if (!typeNames.includes(typeName)) {
+        if (![...commands.keys()].includes(typeName)) {
             console.log()
             console.log(
                 `  ` + chalk.red(`Unknown typeName ${chalk.yellow(typeName)}.`)
