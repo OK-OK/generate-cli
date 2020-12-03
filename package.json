@@ -1,11 +1,12 @@
 {
   "name": "generate-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A generate-cli",
   "main": "bin/generate-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "https://github.com/OK-OK/generate-cli",
   "bin": {
     "generator": "bin/generate-cli.js"
   },
