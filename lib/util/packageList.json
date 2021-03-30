@@ -17,23 +17,6 @@
             "vueUse": true
         },
         {
-            "name": "axios"
-        },
-        {
-            "name": "lodash"
-        },
-        {
-            "name": "underscore"
-        },
-        {
-            "name": "rxjs"
-        },
-        {
-            "name": "less",
-            "packages": ["less-loader"],
-            "dev": true
-        },
-        {
             "name": "element-ui",
             "importName": "elementUi",
             "importList": [
@@ -53,6 +36,32 @@
             "name": "vue-lazyload",
             "importName": "vueLazyload",
             "vueUse": true
+        }
+    ],
+    "uni-app": [
+        {
+            "name": "typescript"
+        }
+    ],
+    "public": [
+        {
+            "name": "axios"
+        },
+        {
+            "name": "lodash"
+        },
+        {
+            "name": "underscore"
+        },
+        {
+            "name": "rxjs"
+        },
+        {
+            "name": "less",
+            "packages": [
+                "less-loader"
+            ],
+            "dev": true
         }
     ]
 }

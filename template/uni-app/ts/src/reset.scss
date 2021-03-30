@@ -1,0 +1,147 @@
+/*
+ * @Author: JL Guan
+ * @Date: 2021-03-11 16:12:16
+ * @description: file description
+ * @LastEditTime: 2021-03-30 11:41:20
+ * @FilePath: \mine\generate-cli\template\uni-app\uni-app\src\reset.scss
+ */
+
+body {
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+/* 清浮动 */
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clear {
+    clear: both;
+}
+
+.grid {
+    display: grid;
+}
+
+.al {
+    align-items: center;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.jc-b {
+    justify-content: space-between;
+}
+
+.jc-a {
+    justify-content: space-around;
+}
+
+.p-a {
+    position: absolute;
+}
+
+.p-x-center {
+    @extend .p-a;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.p-y-center {
+    @extend .p-a;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.p-center {
+    @extend .p-a;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+uni-page-body {
+    height: 100%;
+    overflow: hidden;
+}
+
+p,
+span {
+    font-size: 27px;
+}
+
+@for $i from 1 through 5 {
+    .flex-#{$i} {
+        flex: $i;
+    }
+}
+
+@for $i from 5 through 150 {
+    .m-#{$i} {
+        margin: $i + px;
+    }
+    .mt-#{$i} {
+        margin-top: $i + px;
+    }
+    .mb-#{$i} {
+        margin-bottom: $i + px;
+    }
+    .ml-#{$i} {
+        margin-left: $i + px;
+    }
+    .mr-#{$i} {
+        margin-right: $i + px;
+    }
+
+    .p-#{$i} {
+        padding: $i + px;
+    }
+    .pt-#{$i} {
+        padding-top: $i + px;
+    }
+    .pb-#{$i} {
+        padding-bottom: $i + px;
+    }
+    .pl-#{$i} {
+        padding-left: $i + px;
+    }
+    .pr-#{$i} {
+        padding-right: $i + px;
+    }
+}
+
+// 业务
+.fu-toast {
+    .fu-text {
+        max-width: 300px;
+        > span {
+            font-size: 31px;
+        }
+    }
+}
