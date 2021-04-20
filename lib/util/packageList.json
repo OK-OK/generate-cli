@@ -43,6 +43,9 @@
             "name": "typescript"
         }
     ],
+    "vite": [
+        
+    ],
     "public": [
         {
             "name": "axios"

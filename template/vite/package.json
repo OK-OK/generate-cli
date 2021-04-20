@@ -1,0 +1,22 @@
+{
+  "name": "vite",
+  "license": "ISC",
+  "author": "JL Guan",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build && node tools/modifyAssetsUrl",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^1.3.2",
+    "sass": "^1.32.8",
+    "vite": "^2.1.5",
+    "vite-plugin-vue2": "^1.4.3"
+  }
+}
