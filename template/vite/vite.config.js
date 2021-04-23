@@ -10,8 +10,7 @@ const config = {
 	base: './',
 	resolve: {
 		alias: [
-			{ find: '@', replacement: path.resolve(__dirname, './src')},
-			{ find: 'public', replacement: path.resolve(__dirname, './public')}
+			{ find: '@', replacement: path.resolve(__dirname, './src')}
 		],
 		extensions: ['.vue', '.js', '.json']
 	},
@@ -59,7 +58,7 @@ const config = {
 		createVuePlugin(),
 		// 兼容旧版浏览器
 		// legacy({
-		// 	polyfills: ['features/object']
+		// 	polyfills: ['es/object']
 		// })
 	]
 }
