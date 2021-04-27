@@ -1,6 +1,6 @@
 {
   "name": "generate-cli",
-  "version": "1.1.1",
+  "version": "1.1.11",
   "description": "A generate-cli",
   "main": "bin/generate-cli",
   "scripts": {
@@ -13,6 +13,7 @@
   "keywords": [
     "generate-cli",
     "vue",
+    "vite",
     "uni-app",
     "cli"
   ],
