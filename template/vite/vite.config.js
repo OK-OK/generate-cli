@@ -32,7 +32,7 @@ const config = {
 			output: {
 				entryFileNames: 'js/main.[hash].js',
 				assetFileNames: 'css/[name]-[hash][extname]',
-				chunkFileNames: chunkInfo => {
+				chunkFileNames(chunkInfo) {
 					const s = '/[name]-[hash].js';
 					const m = Object.keys(chunkInfo.modules);
 					if (m[0].includes('node_modules')) return 'vendor' + s;
@@ -41,15 +41,14 @@ const config = {
 					const [, modulesName, viewsName] = match;
 					return `js/${modulesName}/${viewsName}${s}`;
 				},
-				manualChunks: {
-					moment: ['moment'],
-					vue: ['vue'],
-					itFk: ['@it/fk-it-component'],
-					fk: ['@fk/faicomponent'],
-					axios: ['axios'],
-					qs: ['qs'],
-					'vue-router': ['vue-router'],
-					vuex: ['vuex']
+				manualChunks(id) {
+					if (id.includes('node_modules')) {
+						return id.match(/node_modules\/(.+?)\//)
+							?.[1]
+							?.match(/_?(.+?)@\d/)
+							?.[1]
+							?? 'vender';
+					}
 				}
 			},
 		}
