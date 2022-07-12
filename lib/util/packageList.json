@@ -1,22 +1,6 @@
 {
     "vue": [
         {
-            "name": "@fk/faicomponent",
-            "importName": "faicomponent",
-            "importList": [
-                "@fk/faicomponent/dist/faicomponent.css"
-            ],
-            "vueUse": true
-        },
-        {
-            "name": "@it/fk-it-component",
-            "importName": "fkitcomponent",
-            "importList": [
-                "@it/fk-it-component/dist/index.css"
-            ],
-            "vueUse": true
-        },
-        {
             "name": "element-ui",
             "importName": "elementUi",
             "importList": [
@@ -44,11 +28,22 @@
         }
     ],
     "vite": [
-        
+        {
+            "name": "element-plus"
+        },
+        {
+            "name": "@vitejs/plugin-legacy"
+        }
     ],
     "public": [
         {
             "name": "axios"
+        },
+        {
+            "name": "qs"
+        },
+        {
+            "name": "js-cookie"
         },
         {
             "name": "lodash"

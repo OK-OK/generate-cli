@@ -1,10 +1,6 @@
-/**
- * @type {import('vite').UserConfig}
- */
 const path = require('path');
 import { defineConfig } from 'vite';
-import { createVuePlugin } from 'vite-plugin-vue2';
-// import legacy from '@vitejs/plugin-legacy'
+import vue from '@vitejs/plugin-vue'
 
 const config = {
 	base: './',
@@ -16,7 +12,7 @@ const config = {
 	},
 	server: {
 		open: true,
-		port: 8085,
+		port: 3000,
 		proxy: {
 			'/api': {
 				target: 'http://localhost:8080',
@@ -54,11 +50,7 @@ const config = {
 		}
 	},
 	plugins: [
-		createVuePlugin(),
-		// 兼容旧版浏览器
-		// legacy({
-		// 	polyfills: ['es/object']
-		// })
+		vue(),
 	]
 }
 
