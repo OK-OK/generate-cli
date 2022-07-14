@@ -24,7 +24,7 @@
     ],
     "uni-app": [
         {
-            "name": "typescript"
+            "name": "uview-ui"
         }
     ],
     "vite": [
