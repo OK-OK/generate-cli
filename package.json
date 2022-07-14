@@ -17,7 +17,7 @@
     "uni-app",
     "cli"
   ],
-  "author": "JL_Guan",
+  "author": "JL Guan",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
