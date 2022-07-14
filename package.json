@@ -20,7 +20,6 @@
   "author": "JL_Guan",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
     "chalk": "^4.1.0",
     "commander": "^6.2.0",
     "download-git-repo": "^3.0.2",
