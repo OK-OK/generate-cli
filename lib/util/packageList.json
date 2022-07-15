@@ -1,74 +1,68 @@
 {
-    "vue": [
-        {
-            "name": "element-ui",
-            "importName": "elementUi",
-            "importList": [
-                "element-ui/lib/theme-chalk/index.css"
-            ],
-            "vueUse": true
-        },
-        {
-            "name": "ant-design-vue",
-            "importName": "antd",
-            "importList": [
-                "ant-design-vue/dist/antd.css"
-            ],
-            "vueUse": true
-        },
-        {
-            "name": "vue-lazyload",
-            "importName": "vueLazyload",
-            "vueUse": true
-        },
-        {
-            "name": "pinia"
-        }
-    ],
-    "uni-app": [
-        {
-            "name": "uview-ui"
-        }
-    ],
-    "vite": [
-        {
-            "name": "element-plus"
-        },
-        {
-            "name": "ant-design-vue"
-        },
-        {
-            "name": "@vitejs/plugin-legacy"
-        },
-        {
-            "name": "pinia"
-        }
-    ],
-    "public": [
-        {
-            "name": "axios"
-        },
-        {
-            "name": "qs"
-        },
-        {
-            "name": "js-cookie"
-        },
-        {
-            "name": "lodash"
-        },
-        {
-            "name": "underscore"
-        },
-        {
-            "name": "rxjs"
-        },
-        {
-            "name": "less",
-            "packages": [
-                "less-loader"
-            ],
-            "dev": true
-        }
-    ]
+  "vue": [
+    {
+      "name": "element-ui",
+      "importName": "elementUi",
+      "importList": ["element-ui/lib/theme-chalk/index.css"],
+      "vueUse": true
+    },
+    {
+      "name": "ant-design-vue",
+      "importName": "antd",
+      "importList": ["ant-design-vue/dist/antd.css"],
+      "vueUse": true
+    },
+    {
+      "name": "vue-lazyload",
+      "importName": "vueLazyload",
+      "vueUse": true
+    },
+    {
+      "name": "pinia"
+    }
+  ],
+  "uni-app": [
+    {
+      "name": "uview-ui"
+    }
+  ],
+  "vite": [
+    {
+      "name": "element-plus"
+    },
+    {
+      "name": "ant-design-vue"
+    },
+    {
+      "name": "@vitejs/plugin-legacy"
+    },
+    {
+      "name": "pinia"
+    }
+  ],
+  "public": [
+    {
+      "name": "axios"
+    },
+    {
+      "name": "qs"
+    },
+    {
+      "name": "js-cookie"
+    },
+    {
+      "name": "lodash"
+    },
+    {
+      "name": "underscore"
+    },
+    {
+      "name": "rxjs"
+    },
+    {
+      "name": "less",
+      "packages": ["less-loader"],
+      "dev": true
+    }
+  ]
 }
