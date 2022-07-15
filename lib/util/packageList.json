@@ -20,6 +20,9 @@
             "name": "vue-lazyload",
             "importName": "vueLazyload",
             "vueUse": true
+        },
+        {
+            "name": "pinia"
         }
     ],
     "uni-app": [
@@ -32,8 +35,15 @@
             "name": "element-plus"
         },
         {
+            "name": "ant-design-vue"
+        },
+        {
             "name": "@vitejs/plugin-legacy"
+        },
+        {
+            "name": "pinia"
         }
+        
     ],
     "public": [
         {
