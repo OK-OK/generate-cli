@@ -27,6 +27,11 @@ program
     new Creator(typeName)
   })
 
-program.commands.forEach(c => c.on("--help", () => console.log()))
+program.commands.forEach(c => {
+  c.on("--help", () => console.log())
+})
+
+program
+  .version(version, '-v, --version')
 
 program.parse(process.argv)
