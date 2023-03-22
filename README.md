@@ -1,5 +1,3 @@
-[![NPM Package][npm]][npm-url]
-
 # generate-cli ⚡
 generate project
 
