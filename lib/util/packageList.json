@@ -40,6 +40,20 @@
       "name": "pinia"
     }
   ],
+  "react":  [
+    {
+      "name": "tailwindcss"
+    },
+    {
+      "name": "@vanilla-extract/css"
+    },
+    {
+      "name": "antd"
+    },
+    {
+      "name": "redux"
+    }
+  ],
   "public": [
     {
       "name": "axios"
@@ -58,6 +72,9 @@
     },
     {
       "name": "rxjs"
+    },
+    {
+      "name": "echarts"
     },
     {
       "name": "less",

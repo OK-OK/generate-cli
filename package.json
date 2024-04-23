@@ -1,6 +1,6 @@
 {
   "name": "generate-cli",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A generate-cli",
   "main": "bin/generate-cli",
   "scripts": {
@@ -28,7 +28,6 @@
     "inquirer": "^7.3.3",
     "ora": "^5.4.0"
   },
-  "devDependencies": {},
   "directories": {
     "lib": "lib"
   }
